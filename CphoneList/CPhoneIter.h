@@ -13,5 +13,3 @@ private:
 	CPhoneList* const m_cpList;
 	int m_iCurrIndex;
 };
-
-
