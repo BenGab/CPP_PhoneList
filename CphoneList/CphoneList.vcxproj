@@ -147,6 +147,8 @@
     <ClInclude Include="Record.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CPhoneIter.cpp" />
+    <ClCompile Include="CPhoneList.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
