@@ -7,7 +7,8 @@ CPhoneIter::CPhoneIter(CPhoneList & m) : m_cpList(&m)
 
 Record * CPhoneIter::GetFirst()
 {
-	return &m_cpList->m_rArray[0];
+	m_iCurrIndex = 0;
+	return &m_cpList->m_rArray[m_iCurrIndex];
 }
 
 Record * CPhoneIter::GetPrev()
